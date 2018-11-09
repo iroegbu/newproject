@@ -1,6 +1,6 @@
 {
   "name": "@bayoopesanya/newproject",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "simple cli tool to generate boilerplate folder structure for new projects",
   "main": "index.js",
   "repository": {
@@ -14,21 +14,10 @@
   },
   "homepage": "https://github.com/OpesanyaAdebayo/newproject#readme",
   "bin": {
-    "createEnv": "bin/createEnv.js",
-    "createFolders": "bin/createFolders.js",
-    "initNpm": "bin/initNpm.js",
-    "setupEslint": "bin/setupEslint.js",
-    "setupTesting": "bin/setupTesting.js",
-    "doam": "bin/createEnv.js bin/setupTesting.js",
-    "testcommander": "bin/testCommand.js"
+    "newfeature": "bin/setup.js"
   },
   "dependencies": {
     "commander": "^2.19.0",
     "shelljs": "^0.8.2"
-  },
-  "devDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
   }
 }
