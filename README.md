@@ -2,7 +2,7 @@
 A simple cli tool to generate boilerplate folder structure for new projects.
 
 # Why Did I Create This Module?
-After working on my first modeule for Eyowo, I realized that I would have to go through the process of checking out of branches, creating files and folders, and installing dependencies for every new feature I was going to implement. This package is a way to automate the process.
+After working on my first feature for Eyowo, I realized that I would have to go through the process of checking out of branches, creating files and folders, and installing dependencies for every new feature I was going to implement. This package is a way to automate the process.
 
 # How To Use
 
