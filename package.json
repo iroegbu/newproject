@@ -1,6 +1,6 @@
 {
   "name": "@bayoopesanya/newproject",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "simple cli tool to generate boilerplate folder structure for new projects",
   "main": "index.js",
   "repository": {
