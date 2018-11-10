@@ -4,14 +4,6 @@ A simple cli tool to generate boilerplate folder structure for new projects.
 # Why Did I Create This Module?
 After working on my first feature for Eyowo, I realized that I would have to go through the process of checking out of branches, creating files and folders, and installing dependencies for every new feature I was going to implement. This package is a way to automate the process.
 
-# How To Use
-
-1. run `npm install @bayoopesanya/newproject`.
-
-2. run `npx newfeature <feature name>`.
-
-3. run `cd <feature name>` and start coding!
-
 # What does it do?
 1. It checks out of the current branch into the branch you specify as feature name.
 
@@ -39,3 +31,11 @@ After working on my first feature for Eyowo, I realized that I would have to go 
 5. It creates a `.env` file for environment variables.
 
 6. It creates a `.gitignore` file
+
+# How To Use
+
+1. run `npm install @bayoopesanya/newproject`.
+
+2. run `npx newfeature <feature name>`.
+
+3. run `cd <feature name>` and start coding!
