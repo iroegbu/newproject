@@ -7,7 +7,7 @@ const intializeNpm = (folderName) => {
   shell.exec(`cd ${folderName} && npm init -y`);
 
   // install required dependencies
-  shell.exec(`cd ${folderName} && npm i dotenv grpc @grpc/proto-loader joi`);
+  shell.exec(`cd ${folderName} && npm i dotenv express joi`);
 };
 
 module.exports = intializeNpm;
